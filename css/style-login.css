@@ -1,0 +1,71 @@
+:root {
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background: var(--preto);
+  font-family: Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100%;
+}
+
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: 'Roboto', Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 15px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 80px auto;
+}
+
+.logo-center {
+  text-align: center;
+}
+
+.logo {
+  color: var(--vermelho);
+  font-family: 'Roboto', Times;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.color-font {
+  color: #fff;
+}
+
+.btn-new-color {
+  color: #fff;
+  background-color: var(--vermelho);
+}
+
+.btn-new-color:hover {
+  color: #fff;
+  background-color: #b80810;
+  transition: all 0.3 ease-in-out;
+}

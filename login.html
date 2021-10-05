@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLEXFLIX | Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style-login.css">
+</head>
+<body>
+  <header class="sticky-top bg-black">
+    <div class="container-xl header">
+        <h2 class="logo">FLEXFLIX</h2>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="#">Login</a>
+            <a href="sobre.html">Sobre nós</a>
+            <a href="https://www.imdb.com/chart/top/">Indicações Filmes</a>
+            <a href="https://www.adorocinema.com/series-tv/top/">Indicações Séries</a>
+        </nav>
+    </div>
+  </header>
+  <main class="form-signin">
+    <form action="">
+      <div class="logo-center">
+        <h1 class="logo mb-3">FLEXFLIX</h1>
+        <h3 class="h3 mb-5 fw-normal color-font">Entrar</h3>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Senha</label>
+      </div>
+      <div class="checkbox mb-3">
+        <label class="my-2 color-font">
+          <input type="checkbox" value="remember-me"> Lembre-se de mim
+        </label>
+        <button class="w-100 btn btn-lg btn-new-color" onclick="otherPage()" >Login</button>
+      </div>
+    </form>
+  </main>
+  <script>
+    function otherPage() {
+      window.open('index.html');
+    }
+  </script>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <!-- Separate Popper and Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>

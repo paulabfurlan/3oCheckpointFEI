@@ -1,0 +1,107 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Elementos base*/
+
+body, html {
+    background: var(--preto);
+    font-family: Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    height: 100%;
+}
+
+header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Roboto', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 15px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+button i a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+
+/*Filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/fundo.jpg');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .title {
+    margin-top: 10%;
+    margin-bottom: 15%;
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.botao {
+    background-color: rgba(75, 0, 0, .80);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 12px;
+    font-family: Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
